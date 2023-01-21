@@ -16,7 +16,8 @@ def get_connector():
             host=init_params['SERVER'],
             database=init_params['BASENAME'],
             user=init_params['USER'],
-            password=init_params['PASSWORD'])
+            password=init_params['PASSWORD'],
+            port=init_params['PORT'])
     # Коннектор для MS SQL (через ODBC)
     elif db_type == 'mssql':
         return pyodbc.connect(
