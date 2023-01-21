@@ -30,6 +30,7 @@ SERVER = host
 USER = postgres
 PASSWORD = postgres
 BASENAME = infobase
+PORT = 5432
 
 [InnerStructureKeys]
 TABLES_WITH_CONFIG_FILE = params,files,config,configsave,configcas,configcassave
