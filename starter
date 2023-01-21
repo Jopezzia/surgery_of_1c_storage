@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if (type python3 2> /dev/null | grep -q is)
 then PY_CMD=python3
 elif (type python 2> /dev/null | grep -q is)
